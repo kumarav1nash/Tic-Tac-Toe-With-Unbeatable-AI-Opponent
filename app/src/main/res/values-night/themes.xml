@@ -1,0 +1,20 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.TicTac" parent="Theme.MaterialComponents.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/offWhiteColor</item>
+        <item name="colorOnPrimary">@color/blackColor</item>
+        <!-- Secondary brand color. -->
+        <!-- Status bar color. -->
+        <item name="windowActionBar">false</item>
+        <item name="android:windowFullscreen">true</item>
+        <!-- Customize your theme here. -->
+    </style>
+
+    <style name="TicTextStyle" parent="Widget.MaterialComponents.TextView">
+        <item name="android:textSize">22sp</item>
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:textColor">@color/whiteColor</item>
+        <item name="android:padding">8dp</item>
+    </style>
+</resources>

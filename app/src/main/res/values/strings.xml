@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">Tic Tac</string>
+    <string name="enter_your_name">Enter your Name</string>
+    <string name="next">Continue</string>
+    <string name="your_name">Your name</string>
+    <string name="opponent_name">Opponent name</string>
+    <string name="avinash_s_move">Avinash\'s move</string>
+    <string name="pick_your_side">Pick your side</string>
+    <string name="opponent">Opponents : </string>
+    <string name="human">Human</string>
+    <string name="ai">AI</string>
+    <string name="player_1">Player 1</string>
+    <string name="scoreCard">2 – 0</string>
+    <string name="player_2">Player 2</string>
+    <string name="todo">TODO</string>
+    <string name="new_game">Reset Game</string>
+
+</resources>
