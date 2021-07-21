@@ -4,7 +4,6 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.RadioButton;
-import android.widget.Toast;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.databinding.DataBindingUtil;
@@ -28,10 +27,8 @@ public class MainActivity extends AppCompatActivity {
             if (getSelectedOpponent == binding.humanRadioBtn) {
                 binding.opponentNameEditText.setVisibility(View.VISIBLE);
                 binding.opponentNameEditText.setEnabled(true);
-                Toast.makeText(getApplicationContext(), "human Selected", Toast.LENGTH_SHORT).show();
             } else {
                 binding.opponentNameEditText.setVisibility(View.INVISIBLE);
-                Toast.makeText(getApplicationContext(), "AI Selected", Toast.LENGTH_SHORT).show();
 
             }
         });

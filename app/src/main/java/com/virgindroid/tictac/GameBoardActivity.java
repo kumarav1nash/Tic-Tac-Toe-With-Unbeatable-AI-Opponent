@@ -80,7 +80,7 @@ public class GameBoardActivity extends AppCompatActivity {
                 setScoreBoard();
                 currentPlayer = currentPlayer == 'x' ? '0' : 'x';
             } else {
-                Toast.makeText(this.getApplication(), "Invalid index", Toast.LENGTH_SHORT).show();
+                Toast.makeText(this.getApplication(), "Click on empty spot", Toast.LENGTH_SHORT).show();
             }
         } else {
 
@@ -115,7 +115,6 @@ public class GameBoardActivity extends AppCompatActivity {
     private void aiMove() {
         if (hasHumanClicked) {
             int getAiPos = Helper.getNextSmartMove(currentPlayer);
-            Toast.makeText(this, "AI : " + getAiPos, Toast.LENGTH_SHORT).show();
             if (getAiPos != -1) {
                 int drawableId = currentPlayer == 'x' ? R.drawable.ic_tic1icon : R.drawable.ic_tic0icon;
                 buttons[getAiPos].setImageDrawable(getDrawable(drawableId));
