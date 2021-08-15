@@ -3,11 +3,8 @@ This Repo contains android tic tac toe game, In this game You can play with oppo
 This game was developed while learning the.
 
 Here Is the ScreenShot of the Game
+  ![UI design Of the game](https://raw.githubusercontent.com/kumarav1nash/Tic-Tac-Toe-With-Unbeatable-AI-Opponent/master/showcase_1.png)
+  ![UI design Of the game](https://raw.githubusercontent.com/kumarav1nash/Tic-Tac-Toe-With-Unbeatable-AI-Opponent/master/showcase_2.png)
 
-<div>
-  <img src="https://raw.githubusercontent.com/kumarav1nash/Tic-Tac-Toe-With-Unbeatable-AI-Opponent/master/showcase_1.png" alt="UI design Of the game" />
-  <img src="https://raw.githubusercontent.com/kumarav1nash/Tic-Tac-Toe-With-Unbeatable-AI-Opponent/master/showcase_2.png" alt="UI design Of the game" />
-
-</div>
 
 Enjoy the Game.
